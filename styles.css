@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid darkblue; */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header content */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.main-content {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-content {
+    width: 350px;
+}
+
+.hero-image {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 141, 149);
+}
+
+header {
+    background: #1f2937;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-content p, .hero-content button, .nav-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-content button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin-top: 8px; 
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/* Information content */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.info-section .images {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.image-outline {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.info-section .images > * {
+    width: 155px;
+    color: rgb(90, 90, 90);
+}
+
+.info-section h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+
+/* Blockquote */
+blockquote {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-container {
+    display: flex;
+    width: 800px;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 20px;
+}
