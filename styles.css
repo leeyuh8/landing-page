@@ -134,3 +134,13 @@ blockquote {
     margin-top: 15px;
     font-size: 20px;
 }
+
+
+/* Call to action */
+.action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
