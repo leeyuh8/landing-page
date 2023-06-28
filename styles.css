@@ -138,9 +138,38 @@ blockquote {
 
 /* Call to action */
 .action {
-    height: 400px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background: #3882F6;
+    color: white;
+    border-radius: 12px;;
+    height: 150px;
+    width: 1000px;
+    flex-shrink: 0;
+}
+
+.action-box h1 {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.action-box button {
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 12px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 18px;
 }
