@@ -182,6 +182,7 @@ footer {
     align-items: center;
     background-color: #1f2937;
     height: 80px;
+    gap: 10px;
 }
 
 footer p {
