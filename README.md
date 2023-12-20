@@ -1,5 +1,5 @@
 # Landing page
-[Live Demo](https://leeyuh8.github.io/landing-page/)
+[Live Demo](https://strallia.github.io/landing-page/)
 
 ## Purpose:
 To practice using CSS flexbox to create a basic landing page template.
